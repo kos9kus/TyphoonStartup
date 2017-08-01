@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "KKStartupDelegateInterface.h"
+#import "KKStartupAssembly.h"
+#import "KKErrorAssembly.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    __unused BOOL idUploaded = [self.startUpObject uploadDataDelegateData];
+    [[[[KKErrorAssembly alloc] init] activated] basic];
+    
     return YES;
 }
 

@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TyphoonAutoInjection.h>
+
+@protocol KKErrorInterface;
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) InjectedProtocol(KKErrorInterface) errorHandleObject;
 
 @end
 
