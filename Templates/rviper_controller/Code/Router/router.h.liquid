@@ -1,0 +1,7 @@
+{% include 'header' %}
+
+#import "{{ prefix }}{{ module_info.name }}RouterInterface.h"
+
+@interface {{ prefix }}{{ module_info.name }}Router : NSObject <{{ prefix }}{{ module_info.name }}RouterInterface>
+
+@end
