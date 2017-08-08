@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		059B8AA46C3FA533C77F77A0 /* MRMapsInteractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0390905BB8C9B7981B68829A /* MRMapsInteractorTests.m */; };
 		28F64AFB0BFE3E5DADBCDD3A /* libPods-TyphoonStartup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D39F3127EA8F8BA883F95F8 /* libPods-TyphoonStartup.a */; };
+		2D810C0328ECFEC6FBF495CC /* MRMapsAssemblyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8157B37CB9D9CD3CE8B55E56 /* MRMapsAssemblyTests.m */; };
+		327030CB32D649F032B6088A /* MRMapsRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B47441C6B489827D5AE727B5 /* MRMapsRouterTests.m */; };
+		35648BDB780336C941ADCE67 /* MRMapsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3AC09847BF4A195EAD411 /* MRMapsPresenter.m */; };
+		3DE4143674D1ECE2D016DA32 /* MRMapsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = D501BF7FE4001D8C6EE35D57 /* MRMapsAssembly.m */; };
 		447DD034A2830C2B7B2C70FA /* libPods-TyphoonStartupTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C05C9AF9EF9BE63E917709 /* libPods-TyphoonStartupTests.a */; };
 		7070EB0A1F2FE44F00BD605B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7070EB091F2FE44F00BD605B /* main.m */; };
 		7070EB0D1F2FE44F00BD605B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7070EB0C1F2FE44F00BD605B /* AppDelegate.m */; };
@@ -20,6 +25,11 @@
 		7070EB361F2FE80500BD605B /* KKStartupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7070EB351F2FE80500BD605B /* KKStartupObject.m */; };
 		7070EB391F2FF1F900BD605B /* KKErrorAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7070EB381F2FF1F900BD605B /* KKErrorAssembly.m */; };
 		7070EB3F1F2FF23500BD605B /* KKErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7070EB3E1F2FF23500BD605B /* KKErrorObject.m */; };
+		9397C631ABB648BE28142D73 /* MRMapsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 204B5F979DF1C5AA6E122B3B /* MRMapsViewControllerTests.m */; };
+		AE303A8EE221DC384BF7D077 /* MRMapsPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF64102EA5D271E67D9F1936 /* MRMapsPresenterTests.m */; };
+		BE01FC1B32053C46903649AE /* MRMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C3381E285E21476DB418CF /* MRMapsViewController.m */; };
+		E3ABA0B300DCF2A8084D864B /* MRMapsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A837F1C8CB4FFC72FA3865 /* MRMapsRouter.m */; };
+		FC96ADB6E97C5B206B254B42 /* MRMapsInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = FC974B1909633ED88A71DF1E /* MRMapsInteractor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0390905BB8C9B7981B68829A /* MRMapsInteractorTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRMapsInteractorTests.m; sourceTree = "<group>"; };
 		03C05C9AF9EF9BE63E917709 /* libPods-TyphoonStartupTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TyphoonStartupTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D39F3127EA8F8BA883F95F8 /* libPods-TyphoonStartup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TyphoonStartup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		173089210AC58FB02535C379 /* MRMapsViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRMapsViewInput.h; sourceTree = "<group>"; };
+		1738D2DAC2D09DB5C60683B7 /* MRMapsInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRMapsInteractorInput.h; sourceTree = "<group>"; };
+		1CEA77DC7DDDB1C48BEDEA1A /* MRMapsAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRMapsAssembly.h; sourceTree = "<group>"; };
+		204B5F979DF1C5AA6E122B3B /* MRMapsViewControllerTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRMapsViewControllerTests.m; sourceTree = "<group>"; };
 		2E20B612C2E3556F68404540 /* Pods-TyphoonStartup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyphoonStartup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TyphoonStartup/Pods-TyphoonStartup.debug.xcconfig"; sourceTree = "<group>"; };
+		3515D610026150EDD0ACF081 /* MRMapsRouterInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRMapsRouterInterface.h; sourceTree = "<group>"; };
+		38C3381E285E21476DB418CF /* MRMapsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRMapsViewController.m; sourceTree = "<group>"; };
 		6F49A60203305405F448CB88 /* Pods-TyphoonStartupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyphoonStartupTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TyphoonStartupTests/Pods-TyphoonStartupTests.release.xcconfig"; sourceTree = "<group>"; };
 		7070EB051F2FE44F00BD605B /* TyphoonStartup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyphoonStartup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7070EB091F2FE44F00BD605B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,8 +77,22 @@
 		7070EB3C1F2FF22100BD605B /* KKErrorInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKErrorInterface.h; sourceTree = "<group>"; };
 		7070EB3D1F2FF23500BD605B /* KKErrorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKErrorObject.h; sourceTree = "<group>"; };
 		7070EB3E1F2FF23500BD605B /* KKErrorObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKErrorObject.m; sourceTree = "<group>"; };
+		70C425CE75EA75BF9FFE7F0A /* MRMapsInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRMapsInteractor.h; sourceTree = "<group>"; };
 		71ED9F624C26877E62A019AE /* Pods-TyphoonStartup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyphoonStartup.release.xcconfig"; path = "Pods/Target Support Files/Pods-TyphoonStartup/Pods-TyphoonStartup.release.xcconfig"; sourceTree = "<group>"; };
+		8157B37CB9D9CD3CE8B55E56 /* MRMapsAssemblyTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRMapsAssemblyTests.m; sourceTree = "<group>"; };
 		A96FE5B149F0CDB2D42F859C /* Pods-TyphoonStartupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyphoonStartupTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TyphoonStartupTests/Pods-TyphoonStartupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0E3AC09847BF4A195EAD411 /* MRMapsPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRMapsPresenter.m; sourceTree = "<group>"; };
+		B47441C6B489827D5AE727B5 /* MRMapsRouterTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRMapsRouterTests.m; sourceTree = "<group>"; };
+		BE6931A45DA63A41668E2FC9 /* MRMapsAssembly_Testable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRMapsAssembly_Testable.h; sourceTree = "<group>"; };
+		C4A260776279FA16A3B23915 /* MRMapsInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRMapsInteractorOutput.h; sourceTree = "<group>"; };
+		CD226F592047F267E55E6EC5 /* MRMapsViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRMapsViewOutput.h; sourceTree = "<group>"; };
+		CF64102EA5D271E67D9F1936 /* MRMapsPresenterTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRMapsPresenterTests.m; sourceTree = "<group>"; };
+		D36786D42E62D0F3D53D06C2 /* MRMapsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRMapsViewController.h; sourceTree = "<group>"; };
+		D501BF7FE4001D8C6EE35D57 /* MRMapsAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRMapsAssembly.m; sourceTree = "<group>"; };
+		DAFD429D65180AB84DCDFF11 /* MRMapsPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRMapsPresenter.h; sourceTree = "<group>"; };
+		E5B339A2E599414A19BBDF34 /* MRMapsRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRMapsRouter.h; sourceTree = "<group>"; };
+		F4A837F1C8CB4FFC72FA3865 /* MRMapsRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRMapsRouter.m; sourceTree = "<group>"; };
+		FC974B1909633ED88A71DF1E /* MRMapsInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRMapsInteractor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +115,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32B6F1FBB2EB6C3E1C07AA0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				173089210AC58FB02535C379 /* MRMapsViewInput.h */,
+				CD226F592047F267E55E6EC5 /* MRMapsViewOutput.h */,
+				D36786D42E62D0F3D53D06C2 /* MRMapsViewController.h */,
+				38C3381E285E21476DB418CF /* MRMapsViewController.m */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		53DF7C0FDE2D4BF9C9BAEE73 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0390905BB8C9B7981B68829A /* MRMapsInteractorTests.m */,
+			);
+			name = Interactor;
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		59989ECB135FCE59D1F7ED94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				204B5F979DF1C5AA6E122B3B /* MRMapsViewControllerTests.m */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F58035C7D131030CFD9ADA3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B47441C6B489827D5AE727B5 /* MRMapsRouterTests.m */,
+			);
+			name = Router;
+			path = Router;
+			sourceTree = "<group>";
+		};
+		6012D30203D98A1D1E1ED3C3 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				FA6E2DED60B6B4BCD7DF723B /* Assembly */,
+				32B6F1FBB2EB6C3E1C07AA0A /* View */,
+				FD715311088402808C71A231 /* Presenter */,
+				BA7C558A05FA20AF73240F9D /* Interactor */,
+				E94945B251A83E7DC6E77C86 /* Router */,
+			);
+			name = Maps;
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		6809E620D4FCE4AF1FB9E2FD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CF64102EA5D271E67D9F1936 /* MRMapsPresenterTests.m */,
+			);
+			name = Presenter;
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		7070EAFC1F2FE44F00BD605B = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +184,7 @@
 				7070EB061F2FE44F00BD605B /* Products */,
 				EF330BA6B065AE7BB23F2D7C /* Pods */,
 				D6FE35B8B8F9D0E66C659573 /* Frameworks */,
+				C5239CD70050D01C7BB3B0C7 /* ModuleTest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +210,7 @@
 				7070EB161F2FE44F00BD605B /* LaunchScreen.storyboard */,
 				7070EB191F2FE44F00BD605B /* Info.plist */,
 				7070EB081F2FE44F00BD605B /* Supporting Files */,
+				D9B86D16EEEDA384601CE8EE /* Module */,
 			);
 			path = TyphoonStartup;
 			sourceTree = "<group>";
@@ -187,6 +281,37 @@
 			name = Assembles;
 			sourceTree = "<group>";
 		};
+		BA7C558A05FA20AF73240F9D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1738D2DAC2D09DB5C60683B7 /* MRMapsInteractorInput.h */,
+				C4A260776279FA16A3B23915 /* MRMapsInteractorOutput.h */,
+				70C425CE75EA75BF9FFE7F0A /* MRMapsInteractor.h */,
+				FC974B1909633ED88A71DF1E /* MRMapsInteractor.m */,
+			);
+			name = Interactor;
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BDE9EC725F6A2992AAF6C6AE /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				8157B37CB9D9CD3CE8B55E56 /* MRMapsAssemblyTests.m */,
+				BE6931A45DA63A41668E2FC9 /* MRMapsAssembly_Testable.h */,
+			);
+			name = Assembly;
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		C5239CD70050D01C7BB3B0C7 /* ModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+				E50949F6B3DDC657039BEDF8 /* Maps */,
+			);
+			name = ModuleTest;
+			path = ModuleTest;
+			sourceTree = "<group>";
+		};
 		D6FE35B8B8F9D0E66C659573 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +319,39 @@
 				03C05C9AF9EF9BE63E917709 /* libPods-TyphoonStartupTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9B86D16EEEDA384601CE8EE /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				6012D30203D98A1D1E1ED3C3 /* Maps */,
+			);
+			name = Module;
+			path = Module;
+			sourceTree = "<group>";
+		};
+		E50949F6B3DDC657039BEDF8 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				BDE9EC725F6A2992AAF6C6AE /* Assembly */,
+				59989ECB135FCE59D1F7ED94 /* View */,
+				6809E620D4FCE4AF1FB9E2FD /* Presenter */,
+				53DF7C0FDE2D4BF9C9BAEE73 /* Interactor */,
+				5F58035C7D131030CFD9ADA3 /* Router */,
+			);
+			name = Maps;
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		E94945B251A83E7DC6E77C86 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3515D610026150EDD0ACF081 /* MRMapsRouterInterface.h */,
+				E5B339A2E599414A19BBDF34 /* MRMapsRouter.h */,
+				F4A837F1C8CB4FFC72FA3865 /* MRMapsRouter.m */,
+			);
+			name = Router;
+			path = Router;
 			sourceTree = "<group>";
 		};
 		EF330BA6B065AE7BB23F2D7C /* Pods */ = {
@@ -205,6 +363,26 @@
 				6F49A60203305405F448CB88 /* Pods-TyphoonStartupTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA6E2DED60B6B4BCD7DF723B /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				1CEA77DC7DDDB1C48BEDEA1A /* MRMapsAssembly.h */,
+				D501BF7FE4001D8C6EE35D57 /* MRMapsAssembly.m */,
+			);
+			name = Assembly;
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		FD715311088402808C71A231 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DAFD429D65180AB84DCDFF11 /* MRMapsPresenter.h */,
+				B0E3AC09847BF4A195EAD411 /* MRMapsPresenter.m */,
+			);
+			name = Presenter;
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,6 +595,11 @@
 				7070EB321F2FE65E00BD605B /* KKStartupAssembly.m in Sources */,
 				7070EB361F2FE80500BD605B /* KKStartupObject.m in Sources */,
 				7070EB3F1F2FF23500BD605B /* KKErrorObject.m in Sources */,
+				3DE4143674D1ECE2D016DA32 /* MRMapsAssembly.m in Sources */,
+				BE01FC1B32053C46903649AE /* MRMapsViewController.m in Sources */,
+				35648BDB780336C941ADCE67 /* MRMapsPresenter.m in Sources */,
+				FC96ADB6E97C5B206B254B42 /* MRMapsInteractor.m in Sources */,
+				E3ABA0B300DCF2A8084D864B /* MRMapsRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +608,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7070EB231F2FE44F00BD605B /* TyphoonStartupTests.m in Sources */,
+				2D810C0328ECFEC6FBF495CC /* MRMapsAssemblyTests.m in Sources */,
+				9397C631ABB648BE28142D73 /* MRMapsViewControllerTests.m in Sources */,
+				AE303A8EE221DC384BF7D077 /* MRMapsPresenterTests.m in Sources */,
+				059B8AA46C3FA533C77F77A0 /* MRMapsInteractorTests.m in Sources */,
+				327030CB32D649F032B6088A /* MRMapsRouterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
