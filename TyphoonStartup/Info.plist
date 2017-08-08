@@ -4,6 +4,7 @@
 <dict>
 	<key>TyphoonInitialAssemblies</key>
 	<array>
+		<string>KKErrorAssembly</string>
 		<string>KKStartupAssembly</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>

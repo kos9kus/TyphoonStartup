@@ -20,7 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     __unused BOOL idUploaded = [self.startUpObject uploadDataDelegateData];
-    [[[[KKErrorAssembly alloc] init] activated] basic];
+    
     
     return YES;
 }
