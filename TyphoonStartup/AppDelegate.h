@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "KKErrorAssembly.h"
 
 @protocol KKStartupDelegateInterface;
 
@@ -15,7 +15,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic) id<KKStartupDelegateInterface> startUpObject;
-
+@property (nonatomic) KKErrorAssembly *assembly;
 
 @end
 

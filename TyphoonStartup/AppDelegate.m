@@ -9,7 +9,8 @@
 #import "AppDelegate.h"
 #import "KKStartupDelegateInterface.h"
 #import "KKStartupAssembly.h"
-#import "KKErrorAssembly.h"
+
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +22,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     __unused BOOL idUploaded = [self.startUpObject uploadDataDelegateData];
     
+    UIViewController *vc = [[ViewController alloc] init];
+    vc.view;
     
     return YES;
 }

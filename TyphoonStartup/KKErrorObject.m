@@ -10,6 +10,15 @@
 
 @implementation KKErrorObject
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
+
 - (void)handleError:(NSError *)error
 {
     NSLog(@"This is error: %@ ", error);

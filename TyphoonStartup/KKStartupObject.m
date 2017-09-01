@@ -10,6 +10,15 @@
 
 @implementation KKStartupObject
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
+
 - (BOOL)uploadDataDelegateData
 {
     NSLog(@"Delegate data was upload");
