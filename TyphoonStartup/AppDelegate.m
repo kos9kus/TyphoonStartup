@@ -10,7 +10,6 @@
 #import "KKStartupDelegateInterface.h"
 #import "KKStartupAssembly.h"
 
-#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,10 +19,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    __unused BOOL idUploaded = [self.startUpObject uploadDataDelegateData];
     
-    UIViewController *vc = [[ViewController alloc] init];
-    vc.view;
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

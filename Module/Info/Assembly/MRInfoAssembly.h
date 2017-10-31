@@ -7,13 +7,12 @@
 //
 
 #import <Typhoon/Typhoon.h>
-#import <RamblerTyphoonUtils/AssemblyCollector.h>
 
 /**
  @author Konstantin Kusainov
 
  Info module
  */
-@interface MRInfoAssembly : TyphoonAssembly <RamblerInitialAssembly>
+@interface MRInfoAssembly : TyphoonAssembly
 
 @end

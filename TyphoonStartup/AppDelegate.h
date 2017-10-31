@@ -7,15 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KKErrorAssembly.h"
-
-@protocol KKStartupDelegateInterface;
+#import "MRRootViewControllerViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (nonatomic) id<KKStartupDelegateInterface> startUpObject;
-@property (nonatomic) KKErrorAssembly *assembly;
+@property (strong, nonatomic) MRRootViewControllerViewController *vc;
 
 @end
 

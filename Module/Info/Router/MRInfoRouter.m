@@ -8,7 +8,6 @@
 
 #import "MRInfoRouter.h"
 
-#import <ViperMcFlurry/ViperMcFlurry.h>
 
 @implementation MRInfoRouter
 

@@ -13,7 +13,6 @@
 #import "MRInfoPresenter.h"
 #import "MRInfoRouter.h"
 
-#import <ViperMcFlurry/ViperMcFlurry.h>
 
 @implementation MRInfoAssembly
 
@@ -21,8 +20,6 @@
     return [TyphoonDefinition withClass:[MRInfoViewController class]
                           configuration:^(TyphoonDefinition *definition) {
                               [definition injectProperty:@selector(output)
-                                                    with:[self presenterInfo]];
-                              [definition injectProperty:@selector(moduleInput)
                                                     with:[self presenterInfo]];
                           }];
 }
