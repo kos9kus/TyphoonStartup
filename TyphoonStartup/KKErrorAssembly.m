@@ -7,17 +7,9 @@
 //
 
 #import "KKErrorAssembly.h"
-#import "ViewController.h"
 #import "KKErrorObject.h"
 
 @implementation KKErrorAssembly
-
-- (ViewController *)basic
-{
-    return [TyphoonDefinition withClass:[ViewController class] configuration:^(TyphoonDefinition *definition) {
-        [definition injectProperty:@selector(errorHandleObject) with:[self errorHandleObject]];
-    }];
-}
 
 - (id<KKErrorInterface>)errorHandleObject
 {

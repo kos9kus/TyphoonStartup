@@ -18,6 +18,7 @@ code_files:
 - {name: View/ViewController.m, path: Code/View/viewcontroller.m.liquid}
 
 # Presenter layer
+- {name: Presenter/ModuleInput.h, path: Code/Presenter/module_input.h.liquid}
 - {name: Presenter/Presenter.h, path: Code/Presenter/presenter.h.liquid}
 - {name: Presenter/Presenter.m, path: Code/Presenter/presenter.m.liquid}
 
@@ -28,7 +29,7 @@ code_files:
 - {name: Interactor/Interactor.m, path: Code/Interactor/interactor.m.liquid}
 
 # Router layer
-- {name: Router/RouterInterface.h, path: Code/Router/router_input.h.liquid}
+- {name: Router/RouterInput.h, path: Code/Router/router_input.h.liquid}
 - {name: Router/Router.h, path: Code/Router/router.h.liquid}
 - {name: Router/Router.m, path: Code/Router/router.m.liquid}
 

@@ -15,13 +15,21 @@
 - (AppDelegate *)kkDelegate
 {
     return [TyphoonDefinition withClass:[AppDelegate class]configuration:^(TyphoonDefinition *definition) {
-        [definition injectProperty:@selector(startUpObject) with:[self startUpObject]];
+        [definition injectProperty:@selector(window) with:[self mainWindow]];
+        [definition injectProperty:@selector(vc) with:[self.rootVCAssembly viewRootViewController]];
     }];
 }
 
-- (id<KKStartupDelegateInterface>)startUpObject
+- (UIWindow *)mainWindow
 {
-    return [TyphoonDefinition withClass:[KKStartupObject class]];
+    return [TyphoonDefinition withClass:[UIWindow class] configuration:^(TyphoonDefinition *definition)
+            {
+                [definition useInitializer:@selector(initWithFrame:) parameters:^(TyphoonMethod *initializer)
+                 {
+                     [initializer injectParameterWith:[NSValue valueWithCGRect:[[UIScreen mainScreen] bounds]]];
+                 }];
+                [definition injectProperty:@selector(rootViewController) with:[self.rootVCAssembly viewRootViewController]];
+            }];
 }
 
 @end

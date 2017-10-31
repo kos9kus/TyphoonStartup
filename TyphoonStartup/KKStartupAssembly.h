@@ -8,13 +8,12 @@
 
 #import <Typhoon/Typhoon.h>
 
+#import "MRRootViewControllerAssembly.h"
+
 @class AppDelegate;
-@protocol KKStartupDelegateInterface;
 
 @interface KKStartupAssembly : TyphoonAssembly
 
-- (AppDelegate *)kkDelegate;
-
-- (id<KKStartupDelegateInterface>)startUpObject;
+@property (nonatomic) MRRootViewControllerAssembly *rootVCAssembly;
 
 @end

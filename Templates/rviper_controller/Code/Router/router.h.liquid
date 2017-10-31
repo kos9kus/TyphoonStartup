@@ -1,7 +1,11 @@
 {% include 'header' %}
 
-#import "{{ prefix }}{{ module_info.name }}RouterInterface.h"
+#import "{{ prefix }}{{ module_info.name }}RouterInput.h"
 
-@interface {{ prefix }}{{ module_info.name }}Router : NSObject <{{ prefix }}{{ module_info.name }}RouterInterface>
+@protocol RamblerViperModuleTransitionHandlerProtocol;
+
+@interface {{ prefix }}{{ module_info.name }}Router : NSObject <{{ prefix }}{{ module_info.name }}RouterInput>
+
+@property (nonatomic, weak) id<RamblerViperModuleTransitionHandlerProtocol> transitionHandler;
 
 @end
