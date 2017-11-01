@@ -28,7 +28,7 @@
                  {
                      [initializer injectParameterWith:[NSValue valueWithCGRect:[[UIScreen mainScreen] bounds]]];
                  }];
-                [definition injectProperty:@selector(rootViewController) with:[self.rootVCAssembly viewRootViewController]];
+                [definition injectProperty:@selector(rootViewController) with:[self.rootVCAssembly viewRootNavigationViewController]];
             }];
 }
 

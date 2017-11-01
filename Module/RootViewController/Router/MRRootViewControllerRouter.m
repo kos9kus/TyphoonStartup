@@ -12,4 +12,10 @@
 
 #pragma mark - Методы MRRootViewControllerRouterInput
 
+- (void)pushInfoViewController
+{
+    MRInfoViewController *vc = [self.infoAssembly viewInfo];
+    [self.view.navigationController pushViewController:vc animated:YES];
+}
+
 @end

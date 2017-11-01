@@ -10,4 +10,6 @@
 
 @protocol MRRootViewControllerRouterInput <NSObject>
 
+- (void)pushInfoViewController;
+
 @end

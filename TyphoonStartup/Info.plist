@@ -24,6 +24,7 @@
 	<array>
 		<string>KKStartupAssembly</string>
 		<string>MRRootViewControllerAssembly</string>
+		<string>MRInfoAssembly</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

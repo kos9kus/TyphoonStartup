@@ -7,12 +7,9 @@
 //
 
 #import "MRInfoAssembly.h"
-
-#import "MRInfoViewController.h"
 #import "MRInfoInteractor.h"
 #import "MRInfoPresenter.h"
 #import "MRInfoRouter.h"
-
 
 @implementation MRInfoAssembly
 

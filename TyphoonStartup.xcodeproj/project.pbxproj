@@ -184,7 +184,6 @@
 			children = (
 				63BED57020CA3E20B0537A8F /* Info */,
 			);
-			name = Module;
 			path = Module;
 			sourceTree = "<group>";
 		};
@@ -195,7 +194,6 @@
 				4472B856DD3274572976B481 /* MRInfoRouter.h */,
 				E4B4538B017E0D0CF01E5FE7 /* MRInfoRouter.m */,
 			);
-			name = Router;
 			path = Router;
 			sourceTree = "<group>";
 		};
@@ -248,7 +246,6 @@
 				EC090E50188EA12DDD7A8D96 /* MRInfoPresenter.h */,
 				B8CF8465209CAC876E7ECFB3 /* MRInfoPresenter.m */,
 			);
-			name = Presenter;
 			path = Presenter;
 			sourceTree = "<group>";
 		};
@@ -257,7 +254,6 @@
 			children = (
 				74BB11446FFFA8D661ED8824 /* MRInfoInteractorTests.m */,
 			);
-			name = Interactor;
 			path = Interactor;
 			sourceTree = "<group>";
 		};
@@ -306,7 +302,6 @@
 				112450415C6F923DA218F56B /* MRInfoViewController.h */,
 				F12CA651A1958AC9E98E711B /* MRInfoViewController.m */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -356,7 +351,6 @@
 				DDC22B5F25F7FB24183E3DEF /* Interactor */,
 				18AF6683976791CE269AE7E8 /* Router */,
 			);
-			name = Info;
 			path = Info;
 			sourceTree = "<group>";
 		};
@@ -366,7 +360,6 @@
 				431970F770275AD9B0C2DB0E /* MRInfoAssembly.h */,
 				BB3ED0600377B16EF679CF1E /* MRInfoAssembly.m */,
 			);
-			name = Assembly;
 			path = Assembly;
 			sourceTree = "<group>";
 		};
@@ -490,7 +483,6 @@
 			children = (
 				CDF316ACE9109D93F4D34A66 /* MRInfoPresenterTests.m */,
 			);
-			name = Presenter;
 			path = Presenter;
 			sourceTree = "<group>";
 		};
@@ -523,7 +515,6 @@
 				49034D403E56247253AE2348 /* Interactor */,
 				B3AAE15EEB886B647570AF92 /* Router */,
 			);
-			name = Info;
 			path = Info;
 			sourceTree = "<group>";
 		};
@@ -540,7 +531,6 @@
 			children = (
 				73CC0010C6ECCD15647EF268 /* MRInfoRouterTests.m */,
 			);
-			name = Router;
 			path = Router;
 			sourceTree = "<group>";
 		};
@@ -627,7 +617,6 @@
 				EDA14AB870584FCF0AA8AAE5 /* MRInfoInteractor.h */,
 				EFA928A176FD51D83AD5CA38 /* MRInfoInteractor.m */,
 			);
-			name = Interactor;
 			path = Interactor;
 			sourceTree = "<group>";
 		};
@@ -648,7 +637,6 @@
 			children = (
 				DAA7C310DD73DA1EF416F484 /* MRInfoViewControllerTests.m */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -697,7 +685,6 @@
 				5B7CD5132391E2396DCF697E /* MRInfoAssemblyTests.m */,
 				76101A3DF42ECE5C195C4CC5 /* MRInfoAssembly_Testable.h */,
 			);
-			name = Assembly;
 			path = Assembly;
 			sourceTree = "<group>";
 		};

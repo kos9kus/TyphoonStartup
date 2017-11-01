@@ -15,6 +15,14 @@
 
 @implementation MRRootViewControllerAssembly
 
+- (UINavigationController *)viewRootNavigationViewController {
+    return [TyphoonDefinition withClass:[UINavigationController class] configuration:^(TyphoonDefinition *definition) {
+        [definition useInitializer:@selector(initWithRootViewController:) parameters:^(TyphoonMethod *initializer) {
+            [initializer injectParameterWith:[self viewRootViewController]];
+        }];
+    }];
+}
+
 - (MRRootViewControllerViewController *)viewRootViewController {
     return [TyphoonDefinition withClass:[MRRootViewControllerViewController class]
                           configuration:^(TyphoonDefinition *definition) {
@@ -49,6 +57,9 @@
                           configuration:^(TyphoonDefinition *definition) {
                               [definition injectProperty:@selector(transitionHandler)
                                                     with:[self viewRootViewController]];
+                              [definition injectProperty:@selector(view) with:[self viewRootViewController]];
+                              [definition injectProperty:@selector(infoAssembly) with:self.infoViewControllerAssembly];
+                              
                           }];
 }
 

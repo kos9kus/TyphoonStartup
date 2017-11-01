@@ -26,6 +26,11 @@
 	[self.view setupInitialState];
 }
 
+- (void)didButtonEvent
+{
+    [self.router pushInfoViewController];
+}
+
 #pragma mark - Методы MRRootViewControllerInteractorOutput
 
 @end

@@ -8,8 +8,7 @@
 
 #import <Typhoon/Typhoon.h>
 #import "MRRootViewControllerViewController.h"
-
-@class CLBaseAssembly;
+#import "MRInfoAssembly.h"
 
 /**
  @author Konstantin Kusainov
@@ -18,8 +17,9 @@
  */
 @interface MRRootViewControllerAssembly : TyphoonAssembly
 
-@property (nonatomic) CLBaseAssembly *baseAssembly;
+@property (nonatomic) MRInfoAssembly *infoViewControllerAssembly;
 
+- (MRRootViewControllerViewController *)viewRootNavigationViewController;
 - (MRRootViewControllerViewController *)viewRootViewController;
 
 @end

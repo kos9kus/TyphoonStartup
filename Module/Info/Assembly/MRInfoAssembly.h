@@ -7,6 +7,7 @@
 //
 
 #import <Typhoon/Typhoon.h>
+#import "MRInfoViewController.h"
 
 /**
  @author Konstantin Kusainov
@@ -14,5 +15,7 @@
  Info module
  */
 @interface MRInfoAssembly : TyphoonAssembly
+
+- (MRInfoViewController *)viewInfo;
 
 @end
